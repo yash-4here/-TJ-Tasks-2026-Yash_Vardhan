@@ -10,8 +10,6 @@ def classify_message(sentence):
    else:
        print("General support")
 
-
-
 def clean_and_tokenize(sentence):
     sentence=sentence.lower()
     new= " ".join(
