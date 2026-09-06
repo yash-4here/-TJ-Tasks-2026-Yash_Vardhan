@@ -4,7 +4,6 @@ import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 
-
 transform = transforms.Compose([
     transforms.ToTensor(),                 
     transforms.Normalize((0.5,), (0.5,))   
@@ -13,10 +12,8 @@ transform = transforms.Compose([
 trainset = datasets.MNIST('./data', download=True, train=True, transform=transform)
 trainloader = DataLoader(trainset, batch_size=64, shuffle=True)
 
-
 testset = datasets.MNIST('./data', download=True, train=False, transform=transform)
 testloader = DataLoader(testset, batch_size=64, shuffle=False)
-
 
 class SimpleCNN(nn.Module):
     def __init__(self):
@@ -31,11 +28,9 @@ class SimpleCNN(nn.Module):
         x = self.fc1(x)                            
         return x
 
-
 model = SimpleCNN()
 print(model)
 print()
-
 
 if torch.cuda.is_available():
     device = torch.device("cuda")
@@ -48,10 +43,8 @@ model.to(device)
 print(f"Training on: {device}")
 print()
 
-
 criterion = nn.CrossEntropyLoss()               
 optimizer = optim.Adam(model.parameters(), lr=0.001) 
-
 
 EPOCHS = 3
 
@@ -71,7 +64,6 @@ for epoch in range(EPOCHS):
 
     avg_loss = running_loss / len(trainloader)
     print(f"Epoch [{epoch + 1}/{EPOCHS}] - Average Loss: {avg_loss:.4f}")
-
 
 model.eval() 
 correct = 0
