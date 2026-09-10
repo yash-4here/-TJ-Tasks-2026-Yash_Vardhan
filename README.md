@@ -1,4 +1,13 @@
-𝐄𝐚𝐬𝐲: 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐂𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐞𝐫
+<html>
+<head>
+
+  <body>
+    <h1>Easy:Message Classifier</h1>
+
+  </body>
+</head>
+  
+</html>
 
 Basic NLP without any fancy libraries, just plain Python.
 
