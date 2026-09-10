@@ -1,4 +1,4 @@
-Easy: Message Classifier
+𝐄𝐚𝐬𝐲: 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐂𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐞𝐫
 
 Basic NLP without any fancy libraries, just plain Python.
 
