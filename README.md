@@ -14,4 +14,4 @@ Nothing matches → General Inquiry
 No ML model here, just clean if-else logic. Simple but it works
 
 Output:
-![image alt]([Users/yashvardhan/downloads/easy.png](https://github.com/yash-4here/-TJ-Tasks-2026-Yash_Vardhan/blob/46eb1003e2e731f4ef278cb151ea6d76f7462c87/easy.png))
+![image alt](https://github.com/yash-4here/-TJ-Tasks-2026-Yash_Vardhan/blob/0ca84cf6ef2ce3f4408222ad81494149dfa6056a/easy.png)
