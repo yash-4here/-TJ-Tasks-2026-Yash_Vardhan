@@ -51,30 +51,3 @@ Basically this is what one neuron does inside any real neural network, just done
 
 OUTPUT:
 ![image alt](https://github.com/yash-4here/-TJ-Tasks-2026-Yash_Vardhan/blob/fb0313bc42cd4858b16ce659bb329a22fe5851aa/medium.png)
-
-
-<html>
-<head>
-
-  <body>
-    <h1>Hard: CNN on MNIST</h1>
-
-  </body>
-</head>
-  
-</html>
-
-Built and trained an actual CNN in PyTorch to recognize handwritten digits (0-9).
-
-How it works:
-
-Load MNIST, normalize pixels to [-1, 1]
-Architecture: Conv2D (16 filters) → ReLU → MaxPool → Flatten → Dense(10)
-Trained with Cross-Entropy Loss + Adam optimizer for 3 epochs
-Tested on 10k unseen images to check real accuracy
-
-Got ~97-98% test accuracy — pretty solid for such a tiny model.
-
-OUTPUT:
-![image alt](https://github.com/yash-4here/-TJ-Tasks-2026-Yash_Vardhan/blob/fb0313bc42cd4858b16ce659bb329a22fe5851aa/hard.png)
-
